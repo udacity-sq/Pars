@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+#title {
+    /*Red Color = #8e1617 */
+    color: #b6944d;
+
+    /*Gold Color = #b6944d */
+    /*background: #8e1617;*/
+    background-image: radial-gradient(circle, #8e1617, #282828, black);
+
+}
+
+#banner-logo {
+    border-radius:20px;
+    height: 80%;
+    padding-top: 10px;
+    width: auto;
+}
+
+.container {
+    width: auto !important;
+
+}
+
+@media only screen and (min-width: 600px){
+    .carousel-inner > .carousel-item > img {
+        height: 300px;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .carousel-inner > .carousel-item > img {
+        height: 500px;
+        width: auto;
+    }
+}
+
+.navbar {
+    background-color: #b6944d;
+    border-color: coral;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+#para {
+    background-color: #8e1617;
+    color: white;
+    font-size: 1.3em;
+}
+
+.gold {
+    background-color: #b6944d;
+    color: white;
+    font-size: 1.3em;
+}
+
+.red {
+    background-color: #6c0405;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+.nav-item :hover {
+    background-color: #8e1617;
+    border-radius: 5px;
+
+}
+
+
+#fb-logo {
+    margin-bottom: 5px;
+    width: 50px;
+    height:70px;
+    display:block;
+    background: url('../images/Fb_logo_(square).png') center top no-repeat;
+}
+
+#fb-logo:hover {
+   background-image: url('../images/fb_logo_hover.png');
+}
+
+.round {
+    border-radius: 5px;
+}
+

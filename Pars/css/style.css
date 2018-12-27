@@ -1,0 +1,57 @@
+#title {
+    /*Red Color = #8e1617 */
+    color: #b6944d;
+
+    /*Gold Color = #b6944d */
+    /*background: #8e1617;*/
+    background-image: radial-gradient(circle, #8e1617, #282828, black);
+
+}
+
+#banner-logo {
+    border-radius:20px;
+    height: 80%;
+    padding-top: 10px;
+    width: auto;
+}
+
+.container {
+    width: auto !important;
+
+}
+
+#logo {
+    height: 500px;
+    width: 600px;
+}
+
+#image-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+#image-box img {
+    width: 100%;
+    height: auto;
+}
+
+#image-box .btn {
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-tranform: translate(-50%,-50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#image-box .btn:hover {
+    background-color: black;
+}
